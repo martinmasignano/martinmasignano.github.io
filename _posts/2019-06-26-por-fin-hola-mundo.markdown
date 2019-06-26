@@ -3,6 +3,7 @@ layout: post
 title:  "Por fin: Hola mundo"
 date:   2019-06-26 10:35:47 -0300
 categories: posts
+comments: true
 ---
 
 Después de mucho tiempo de hacer y deshacer, por fin puedo poner online mi portfolio/blog/sitio personal y profesional, en dónde --espero-- les iré contando diversos temas de mi interés. 
