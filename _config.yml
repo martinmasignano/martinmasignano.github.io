@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Martin Masignano
+subtitle: UX Designer & Frontend Developer
+description: Desarrollo y diseño web, UX, UI, Product design 
+email: martinmasignano@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://martinmasignano.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: martinmasignano
+github_username:  martinmasignano
+linkedin_username: martinmasignano
+instagram_username: martinmasignano
+behance_username: martinmasignano
+soundcloud_username: martinmasignano
+copyright: © 2008-2019. Hecho con <span class="heart">♥</span> y <strong><a href="https://jekyllrb.com/" target="_blank">Jekyll</a></strong>, hosteado en <strong><a href="https://pages.github.com/" target="_blank">Github Pages</a></strong>.
+exclude_from_localizations: ["javascript", "images", "css"]
+
+# Build settings
+markdown: kramdown
+sourcemaps: true
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
