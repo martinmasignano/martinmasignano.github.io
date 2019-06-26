@@ -10,18 +10,6 @@ ul {
     li {
         list-style: none;
         display: inline-block;
-        
-
-        a {
-            padding: 0 1rem
-        }
-
-        &:last-child {
-
-            a {
-                padding: 0;
-            }
-        }
     }
 }
 

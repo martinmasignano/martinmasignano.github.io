@@ -39,6 +39,21 @@ header {
 
     &.site-header {
         padding: 4rem 0 0;
+
+        ul {
+            li {
+                a {
+                    padding: 0 1rem
+                }
+        
+                &:last-child {
+        
+                    a {
+                        padding: 0;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -74,11 +89,20 @@ footer {
     a {
         text-decoration: none;
     }
+
+    ul {
+        li {
+            a {
+                padding: 0 1rem
+            }
+        }
+    }
 }
 
 .post-list {
     li {
         width: 100%;
+        margin: 0 0 .5rem;
         
         .post-meta {
             float: right;
