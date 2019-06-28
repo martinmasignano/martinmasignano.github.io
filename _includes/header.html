@@ -2,25 +2,25 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <h2 class="site-title" >
-        <!-- <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
         <a rel="author" href="{{ "/" | relative_url }}">
-            <img class="logo" src="/assets/logo.svg" alt="Logo de Martín Masignano"> {{ site.title | escape }}
+            <img class="logo" src="/assets/logo.svg" alt="Logo de Martín Masignano">
+            {{ site.title | escape }}
         </a>
     </h2>
 
     {%- if page_paths -%}
-    <nav class="site-nav">
-        <ul>
-            {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.title -%}
-                <li>
-                    <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-                </li>
-                {%- endif -%}
-            {%- endfor -%}
-        </ul>
-    </nav>
+        <nav class="site-nav">
+            <ul>
+                {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                    {%- if my_page.title -%}
+                    <li>
+                        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                    </li>
+                    {%- endif -%}
+                {%- endfor -%}
+            </ul>
+        </nav>
     {%- endif -%}
 </header>
       
