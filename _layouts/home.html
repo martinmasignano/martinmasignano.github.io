@@ -5,11 +5,12 @@ layout: default
 <div class="home">
 
   <div class="home-content">
+    <h1>Hola!, Soy Martín</h1>
     {{ content }}
   </div>
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h2> 
+    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h2>  -->
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
