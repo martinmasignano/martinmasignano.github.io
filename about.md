@@ -19,7 +19,7 @@ En este blog voy compartiendo diversos temas de mi vida personal y profesional: 
 
 Si te resulta útil, este sitio fue:
 
-* Pensado y dseñado en una **[Macbook pro (2015)](https://support.apple.com/kb/SP715?locale=es_ES&viewlocale=en_US){:target="blank"}**
+* Pensado y diseñado en una **[Macbook pro (2015)](https://support.apple.com/kb/SP715?locale=es_ES&viewlocale=en_US){:target="blank"}**
 * Codeado en **[VS Code](https://code.visualstudio.com){:target="blank"}**    
 * Hecho con **[Jekyll](https://jekyllrb.com){:target="blank"}** y **[Kramdown](https://kramdown.gettalong.org/index.html){:target="_blank"}**, una versión mejorada de **[Markdown](https://daringfireball.net/projects/markdown/){:target="blank"}**
 * Hosteado en **[Github Pages](https://pages.github.com){:target="blank"}**
