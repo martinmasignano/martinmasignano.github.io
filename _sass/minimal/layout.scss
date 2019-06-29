@@ -137,6 +137,26 @@ footer {
             }
         }
     }
+
+    .post-img {
+        max-width: 150%;
+        border-radius: .5rem;
+        display: block;
+        margin: 0 0 2rem -25%;
+
+    }
+
+    p img+em {
+        display: block;
+        max-width: 75%;
+        padding: 0;
+        margin: -1rem auto 2rem;
+        font-size: .6875rem;
+        font-family: sans-serif;
+        font-style: italic;
+        color: #7a7a7a;
+        text-align: center;
+    }
 }
 
 .rss-subscribe {
