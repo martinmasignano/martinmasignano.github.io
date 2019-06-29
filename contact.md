@@ -4,8 +4,6 @@ title: Contacto
 permalink: /contact/
 ---
 
-### Estemos en contacto
-
 ¿Tenés alguna sugerencia o estás interesado en que trabajemos juntos en un proyecto? Adelante, me encantaría conectarme con vos. 
 
 #### **[Enviame un email](mailto:martinmasignano@gmail.com)**
