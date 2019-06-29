@@ -10,10 +10,10 @@ permalink: /contact/
 
 Si no, podés seguirme en las redes:
 
-* [Twitter](https://twitter.com/martinmasignano)
-* [Instagram](https://www.instagram.com/martinmasignano/)
-* [Soundcloud](https://soundcloud.com/martinmasignano)
-* [Behance](https://www.behance.net/martinmasignano)
-* [Github](https://github.com/martinmasignano)
-* [Linkedin](https://www.linkedin.com/in/martinmasignano/)
+* [Twitter](https://twitter.com/martinmasignano){:target="blank"}
+* [Instagram](https://www.instagram.com/martinmasignano/){:target="blank"}
+* [Soundcloud](https://soundcloud.com/martinmasignano){:target="blank"}
+* [Behance](https://www.behance.net/martinmasignano){:target="blank"}
+* [Github](https://github.com/martinmasignano){:target="blank"}
+* [Linkedin](https://www.linkedin.com/in/martinmasignano/){:target="blank"}
 
