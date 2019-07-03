@@ -1,9 +1,3 @@
-body {
-    background-color: $bg-color;
-    color: $text-color;
-    font-family: 'PT Serif', serif;
-}
-
 ul {
     padding: 0;
 
@@ -13,6 +7,18 @@ ul {
     }
 }
 
+a {
+    color: $link-color;
+
+    &:hover, &:visited, &:active {
+        color: darken($link-color, 10);
+    }
+}
+
 .heart {
     color: $heart;
+}
+
+.rss-subscribe {
+    text-align: center;
 }
