@@ -5,9 +5,13 @@ footer {
 
     &:before {
         display: block;
-        content: "____";
+        content: "";
         color: $text-color;
-        padding: 0 0 1rem;
+        width: 100px;
+        height: 1px;
+        margin: 2rem auto;
+        background-color: darken($bg-color,20);
+        border: 0;
     }
 
     a {

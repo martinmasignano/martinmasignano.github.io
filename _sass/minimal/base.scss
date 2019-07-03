@@ -15,6 +15,14 @@ a {
     }
 }
 
+hr {
+    width: 100px;
+    height: 1px;
+    margin: 4rem auto;
+    background-color: darken($bg-color,20);
+    border: 0;
+}
+
 .heart {
     color: $heart;
 }

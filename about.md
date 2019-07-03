@@ -13,6 +13,8 @@ Previamente trabajé como desarrollador frontend en diferentes agencias digitale
 
 Podés visitar mi **[LinkedIn](https://www.linkedin.com/in/martinmasignano){:target="blank"}** para ver mi experiencia profesional completa.
 
+<hr />
+
 # Acerca del sitio
 
 En este blog voy compartiendo diversos temas de mi vida personal y profesional: reflexiones, ideas, tutoriales, eventos. Todas las opiniones vertidas aquí son exclusivamente mías.
