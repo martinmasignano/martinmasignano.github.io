@@ -2,7 +2,7 @@
 layout: post
 title:  "Por fin: Hola mundo"
 date:   2019-06-26 10:35:47 -0300
-categories: posts
+categories: blog
 comments: true
 ---
  ![](/assets/images/hola.jpg){: .post-img alt="Hola"}
