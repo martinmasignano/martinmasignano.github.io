@@ -2,16 +2,19 @@
 layout: page
 title: Acerca de
 permalink: /about/
+order: 0
 ---
 Soy diseñador UX y desarrollador frontend con más de 10 años de experiencia dentro del mundo digital, pasión por el cine y la música. Tengo formación como Diseñador de Imagen y Sonido (UBA), pero migré hacia el desarrollo web.
 
-Actualmente trabajo en **[Qubit.tv](http://qubit.tv){:target="blank"}** como diseñador UX, llevando adelante research, pruebas con usuarios, entrevistas contextuales, wireframes y prototipos en baja y finales (UI) para las distintas platadormas de la compañia: plataforma web (desktop y mobile), aplicaciones nativas para iOS y Android, y aplicaciones para SmartTV.
-
-En paralelo, llevo adelante un proyecto llamado **[Libros Vitales](https://instagram.com/librosvitales){:target="blank"}** en donde hago reseñas de los libros que voy leyendo.
+Actualmente trabajo en **[Qubit.tv](http://qubit.tv){:target="blank"}** como diseñador UX, llevando adelante research, pruebas con usuarios, entrevistas contextuales, wireframes y prototipos en baja y finales (UI) para las distintas platadormas de la compañia: sitio web (desktop y mobile), aplicaciones nativas para iOS y Android, y aplicaciones para SmartTV.
 
 Previamente trabajé como desarrollador frontend en diferentes agencias digitales, escribí en varios blogs y portales sobre tecnología, música, cine y literatura y fundé, junto a dos socias, una pequeña productora audiovisual llamada **Tripode Films**, con la cuál hicimos un **[documental sobre una banda de blues](https://vimeo.com/12328175){:target="blank"}** y una acción viral llamada _Tweets&Shout_, que revolucionó las redes sociales. 
 
 Podés visitar mi **[LinkedIn](https://www.linkedin.com/in/martinmasignano){:target="blank"}** para ver mi experiencia profesional completa.
+
+**[¿Qué estoy haciendo ahora?](/now/)**
+
+<hr />
 
 # Acerca del sitio
 

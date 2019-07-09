@@ -22,7 +22,7 @@ GEM
     http_parser.rb (0.6.0-java)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.8.5)
+    jekyll (3.8.6)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -93,7 +93,7 @@ GEM
     tilt (2.0.9)
     tzinfo (2.0.0)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2019.1)
+    tzinfo-data (1.2019.2)
       tzinfo (>= 1.0.0)
 
 PLATFORMS

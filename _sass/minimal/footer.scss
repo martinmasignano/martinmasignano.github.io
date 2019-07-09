@@ -1,0 +1,28 @@
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 0 0 1rem;
+
+    &:before {
+        display: block;
+        content: "";
+        color: $text-color;
+        width: 100px;
+        height: 1px;
+        margin: 2rem auto;
+        background-color: darken($bg-color,20);
+        border: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        li {
+            a {
+                padding: 0 1rem
+            }
+        }
+    }
+}
