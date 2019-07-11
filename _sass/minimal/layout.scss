@@ -51,8 +51,7 @@ nav {
         li {
             &.active {
                 a {
-                    color: $active-color;
-                    text-decoration: underline;
+                    font-weight: 700;
                 }
             }
         }
@@ -101,8 +100,7 @@ nav {
 .post-content {
     >p {
         &:first-child {
-            font-size: 125%;
-            line-height: 1.5;
+            font-size: 135%;
         }
     }
 

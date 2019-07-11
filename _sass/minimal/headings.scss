@@ -1,6 +1,8 @@
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-family: $font-headings;
+    font-weight: $headings-weight;
+    line-height: $headings-line-height;
 }
 
 header {
@@ -49,10 +51,16 @@ header {
 }
 
 h1, .post-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .post-list-heading {
     text-align: center;
+}
+
+.post-list {
+    h3 {
+        display: inline-block;
+    }
 }
 
