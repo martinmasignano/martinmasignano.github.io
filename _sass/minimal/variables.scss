@@ -12,14 +12,18 @@ $heart: $tree-poppy;
 
 $active-color: $heart;
 
-//$font-base: 'PT Sans', sans-serif;
-//$font-headings: 'PT Serif', serif;
-
-// $font-base: 'PT Serif', serif;
 $font-base: 'Montserrat', sans-serif;
 $font-headings: $font-base;
 $headings-weight: 800;
 $headings-line-height: 1.4;
 
-$font-base-size: 1rem;
+$font-base-size: 1em;
 $line-height-base: 1.5;
+
+$h1-size: 3.052em;
+$h2-size: 2.441em;
+$h3-size: 1.953em;
+$h4-size: 1.563em;
+$h5-size: 1.25em;
+$h6-size: $font-base-size;
+

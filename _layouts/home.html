@@ -12,14 +12,14 @@ layout: default
   <hr />
   
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h2>
+    <h4 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h4>
     <ul class="post-list">
       {%- for post in site.posts -%}
       
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <a class="post-link" href="{{ post.url | relative_url }}">
           <li class="card">
-            <h3><strong>{{ post.title | escape }}</strong></h3>
+            <h5><strong>{{ post.title | escape }}</strong></h5>
             <span class="post-meta">{{ post.date | date: date_format }}</span>
           </li>
         </a>
