@@ -5,6 +5,30 @@ h1, h2, h3, h4, h5, h6 {
     line-height: $headings-line-height;
 }
 
+h1 {
+    font-size: $h1-size;
+}
+
+h2 {
+    font-size: $h2-size;
+}
+
+h3 {
+    font-size: $h3-size;
+}
+
+h4 {
+    font-size: $h4-size;
+}
+
+h5 {
+    font-size: $h5-size;
+}
+
+h6 {
+    font-size: $h6-size;
+}
+
 header {
     display: block;
 
@@ -41,7 +65,7 @@ header {
 
 .site-title {
     float: left;
-    padding: .7rem 0 0;
+    //padding: .7rem 0 0;
 
     .logo {
         width: 50px;
@@ -50,16 +74,12 @@ header {
     }
 }
 
-h1, .post-title {
-    font-size: 3rem;
-}
-
 .post-list-heading {
     text-align: center;
 }
 
 .post-list {
-    h3 {
+    h5 {
         display: inline-block;
     }
 }
