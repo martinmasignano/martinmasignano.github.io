@@ -26,7 +26,6 @@ Si te resulta útil, este sitio fue:
 * Codeado en **[VS Code](https://code.visualstudio.com){:target="blank"}**    
 * Hecho con **[Jekyll](https://jekyllrb.com){:target="blank"}** y **[Kramdown](https://kramdown.gettalong.org/index.html){:target="_blank"}**, una versión mejorada de **[Markdown](https://daringfireball.net/projects/markdown/){:target="blank"}**
 * Hosteado en **[Github Pages](https://pages.github.com){:target="blank"}**
-* Inspirado en el blog de **[@mdo](http://markdotto.com){:target="blank"}** 
 
 
 
