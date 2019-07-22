@@ -29,6 +29,7 @@ main {
 .home-content {
     h1 {
         text-align: left;
+        font-weight: 700;
     }
 
     p {
@@ -64,15 +65,18 @@ nav {
     }
 
     .post-img {
-        max-width: 150%;
+        max-width: 100%;
         border-radius: .5rem;
         display: block;
-        margin: 0 0 2rem -25%;
+        margin: 0 0 2rem;
 
     }
 
     h1, h2, h3, h4, h5, h6 {
-        text-align: center;
+        //text-align: center;
+        background-color: $headings-bg;
+        display: inline-block;
+        padding: 0 .5rem;
     }
 }
 
@@ -80,10 +84,10 @@ nav {
     li {
         width: calc(100% - 3rem);
         margin: 0 0 1.5rem;
-        background-color: white;
+        background-color: $alabaster;
         padding: 1.5rem;
         border-radius: 8px;
-        transition: all .3s linear;
+        transition: all .3s ease-in-out;
 
         .post-meta {
             float: right;
@@ -91,15 +95,11 @@ nav {
         }
 
         &:hover {
-            background-color: $dark-blue;
+            background-color: $dandelion;
             box-shadow: 0 10px 16px 0 rgba(0,0,0,.1);
-            color: white;
+            color: $text-color;
         }
     }
-}
-
-.post-header {
-    text-align: center;
 }
 
 .post-meta {

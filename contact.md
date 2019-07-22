@@ -7,7 +7,7 @@ order: 2
 
 ¿Tenés alguna sugerencia o estás interesado en que trabajemos juntos en un proyecto? Adelante, me encantaría conectarme con vos. 
 
-#### **[Enviame un email](mailto:martinmasignano@gmail.com)**
+**[Enviame un email](mailto:martinmasignano@gmail.com){:class="btn btn-primary"}**
 
 Si no, podés seguirme en las redes:
 
