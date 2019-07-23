@@ -2,7 +2,7 @@
 layout: page
 title: Contacto
 permalink: /contact/
-order: 2
+order: 3
 ---
 
 ¿Tenés alguna sugerencia o estás interesado en que trabajemos juntos en un proyecto? Adelante, me encantaría conectarme con vos. 
