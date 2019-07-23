@@ -41,6 +41,7 @@ header {
 
     a {
         text-decoration: none;
+        display: block;
     }
 
     &.site-header {
@@ -49,7 +50,11 @@ header {
         ul {
             li {
                 a {
-                    padding: 0 1rem
+                    padding: 0 1rem;
+
+                    &:hover svg{
+                        color: $dandelion;
+                    }
                 }
         
                 &:last-child {
@@ -65,12 +70,11 @@ header {
 
 .site-title {
     float: left;
-    //padding: .7rem 0 0;
 
     .logo {
         width: 50px;
         display: inline-block;
-        margin: -13px 0;
+        height: auto;
     }
 }
 
