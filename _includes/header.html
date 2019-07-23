@@ -3,7 +3,7 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <h2 class="site-title" >
         <a rel="author" href="{{ "/" | relative_url }}">
-            <img class="logo" src="/assets/images/logo.svg" alt="Logo de Martín Masignano">
+            {%- include logo.html -%}
         </a>
     </h2>
 
