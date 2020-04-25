@@ -70,11 +70,16 @@ header {
 
 .site-title {
     float: left;
+    font-size: $h5-size;
 
     .logo {
         width: 50px;
         display: inline-block;
         height: auto;
+    }
+
+    a {
+        padding: .6em 0;
     }
 }
 
