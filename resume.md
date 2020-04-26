@@ -6,9 +6,14 @@ order: 2
 ---
 <hr>
 
+#### Banco Galicia  
+**UX designer**    
+*Agosto 2019 - Actualidad*    
+Diseño e investigación para los productos Cheques y Cheques electrónicos.
+
 #### QubitTV  
-**UX/UI Lead designer**    
-*Enero 2017 - Actualidad*  (2 años y 7 meses)   
+**UX/UI designer**    
+*Enero 2017 - julio 2019*  (2 años y 7 meses)   
 Diseño de interfaces para aplicaciones mobile, smartTV y Web, Wireframes, Prototipado, User testing, Benchmark, A/B testing, Card sorting, User journey maps.
 
 **Front-end Developer**     
