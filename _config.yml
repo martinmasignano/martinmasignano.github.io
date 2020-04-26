@@ -19,14 +19,13 @@ description: Desarrollo y diseño web, UX, UI, Product design
 email: martinmasignano@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://martinmasignano.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: martinmasignano
+twitter_username: masignano
 github_username:  martinmasignano
 linkedin_username: martinmasignano
 instagram_username: martinmasignano
-behance_username: martinmasignano
 soundcloud_username: martinmasignano
 disqus.shortname: martinmasignano
-copyright: © 2008-2019. Hecho con <span class="heart">♥</span> y <strong><a href="https://jekyllrb.com/" target="_blank">Jekyll</a></strong>, hosteado en <strong><a href="https://pages.github.com/" target="_blank">Github Pages</a></strong>.
+copyright: © 2008-2020. Hecho con <span class="heart">♥</span> y <strong><a href="https://jekyllrb.com/" target="_blank">Jekyll</a></strong>, hosteado en <strong><a href="https://pages.github.com/" target="_blank">Github Pages</a></strong>.
 exclude_from_localizations: ["javascript", "images", "css"]
 
 # Permalinks
