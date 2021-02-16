@@ -6,9 +6,14 @@ order: 2
 ---
 ![](/assets/images/cv.png){: .post-img alt="Curriculum Vitae"}
 
-#### Banco Galicia  
+# Curriculum Vitae            
+
+#### Banco Galicia
+**UX Design Leader**        
+*Noviembre 2020 - Actualidad*
+
 **UX designer**    
-*Agosto 2019 - Actualidad*    
+*Agosto 2019 - Octubre 2020*    
 Diseño e investigación para los productos Cheques y Cheques electrónicos.
 
 #### QubitTV  

@@ -6,6 +6,8 @@ order: 3
 ---
 
  ![](/assets/images/contact.png){: .post-img alt="Contacto"}
+# Contacto
+
 ¿Tenés alguna sugerencia o estás interesado en que trabajemos juntos en un proyecto? Adelante, me encantaría conectarme con vos. 
 
 **[Enviame un email](mailto:martinmasignano@gmail.com){:class="btn btn-primary"}**
