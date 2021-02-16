@@ -4,7 +4,7 @@ title: CV
 permalink: /resume/
 order: 2
 ---
-<hr>
+![](/assets/images/cv.png){: .post-img alt="Curriculum Vitae"}
 
 #### Banco Galicia  
 **UX designer**    
