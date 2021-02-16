@@ -19,7 +19,7 @@ description: Desarrollo y diseño web, UX, UI, Product design
 email: martinmasignano@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://martinmasignano.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: masignano
+#twitter_username: masignano
 github_username:  martinmasignano
 linkedin_username: martinmasignano
 instagram_username: martinmasignano
