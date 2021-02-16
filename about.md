@@ -4,6 +4,7 @@ title: Acerca de
 permalink: /about/
 order: 0
 ---
+![](/assets/images/aboutme.png){: .post-img alt="Acerca de"}
 Hola, mi nombre es Martín y trabajo como diseñador UX. Cuento con más de 10 años de experiencia dentro del mundo digital, pasión por el cine y la música. Tengo formación como Diseñador de Imagen y Sonido (UBA), pero migré primero hacia el desarrollo web y luego hacia el diseño.
 
 Actualmente trabajo en **[Banco Galicia](http://bancogalicia.com){:target="blank"}** como diseñador UX, llevando adelante research, pruebas con usuarios, entrevistas contextuales, wireframes y prototipos en baja dentro del equipo de cheques.
