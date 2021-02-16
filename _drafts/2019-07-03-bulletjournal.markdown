@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bullet Journal
+title: "Bullet Journal"
 date: 2019-07-03
 categories: blog
 comments: true

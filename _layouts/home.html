@@ -5,27 +5,27 @@ layout: default
 <div class="home">
 
   <div class="home-content">
-    <h1>¡Hola!, Soy Martín y trabajo como diseñador UX.</h1>
-    {{ content }}
+    <!-- <h1>¡Hola!, Soy Martín y trabajo como diseñador UX.</h1> -->
   </div>
-
-  <hr />
   
   {%- if site.posts.size > 0 -%}
-    <h4 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h4>
+    <!-- h4 class="post-list-heading">{{ page.list_title | default: "Blog" }}</h4 -->
     <ul class="post-list">
       {%- for post in site.posts -%}
       
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <a class="post-link" href="{{ post.url | relative_url }}">
+        
           <li class="card">
-            <h5><strong>{{ post.title | escape }}</strong></h5>
+            <h5>
+              <strong>{{ post.title | escape }}</strong>
+            </h5>
             <span class="post-meta">{{ post.date | date: date_format }}</span>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+              <a class="btn btn-primary" href="{{ post.url | relative_url }}"><strong>Seguir leyendo →</strong></a>
+            {%- endif -%}
           </li>
-        </a>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+
       {%- endfor -%}
     </ul>
   {%- endif -%}

@@ -5,9 +5,11 @@ date:   2019-06-26 10:35:47 -0300
 categories: blog
 comments: true
 ---
- ![](/assets/images/hola.jpg){: .post-img alt="Hola"}
- _[La imagen utilizada es de Jon Tyson](https://unsplash.com/@jontyson?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge){:target="_blank"}_
+
+
 Después de mucho tiempo de hacer y deshacer, por fin puedo poner online mi portfolio/blog/sitio personal y profesional, en dónde --espero-- les iré contando diversos temas de mi interés.
+
+![](/assets/images/hola.jpg){: .post-img alt="Hola"}
 
 Estos pueden ser muy variados, pero me pareció buena la idea de tener todo en un mismo lugar, porque los seres humanos somos así de inabarcables, exploradores, curiosos y también contradictorios.
 
