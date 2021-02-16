@@ -14,8 +14,6 @@ Antes de dedicarme al diseño UX, trabajé como desarrollador frontend en difere
 
 Podés visitar mi **[LinkedIn](https://www.linkedin.com/in/martinmasignano){:target="blank"}** para ver mi experiencia profesional completa.
 
-**[¿Qué estoy haciendo ahora?](/now/)**
-
 <hr />
 
 # Acerca del sitio
