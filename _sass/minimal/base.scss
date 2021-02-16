@@ -9,7 +9,7 @@ ul {
 
 a {
     color: $link-color;
-    transition: all .3s ease-in-out;
+    //transition: all .3s ease-in-out;
 
     &:hover {
         color: $link-color-hover;
@@ -38,9 +38,8 @@ p {
 
 .btn {
     padding: .5rem 1.5rem;
-    transition: all .3s ease-in-out;
+    //transition: all .3s ease-in-out;
     text-decoration: none;
-    border-radius: .5rem;
 
 
     &-primary {

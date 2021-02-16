@@ -27,6 +27,7 @@ soundcloud_username: martinmasignano
 disqus.shortname: martinmasignano
 copyright: © 2008-2020. Hecho con <span class="heart">♥</span> y <strong><a href="https://jekyllrb.com/" target="_blank">Jekyll</a></strong>, hosteado en <strong><a href="https://pages.github.com/" target="_blank">Github Pages</a></strong>.
 exclude_from_localizations: ["javascript", "images", "css"]
+show_excerpts: true
 
 # Permalinks
 permalink: /:categories/:title/
