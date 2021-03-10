@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Martin Masignano
 subtitle: UX Designer & Frontend Developer
-description: Desarrollo y diseño web, UX, UI, Product design 
+description: Web design, web development, UX, UI, Service design and other things
 email: martinmasignano@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://martinmasignano.com" # the base hostname & protocol for your site, e.g. http://example.com

@@ -1,6 +1,7 @@
 $alabaster: rgba(250,250,250,1); //#fafafa
 $dark-blue: rgba(0,0,200,1); //#0000C8
 $mine-shaft: rgba(50,50,50,1); //#323232
+$tundora: rgba(75,75,75,1); //#4b4b4b
 $tree-poppy: rgba(255,158,27,1); // #ff9e1b
 $dandelion: rgba(255, 217, 102, 1); // #ffd966
 $white: rgba(255, 255, 255, 1); // #ffffff
@@ -9,20 +10,21 @@ $black: rgba(0, 0, 0, 1); // #000000
 $bg-light: $white;
 
 $bg-color: $bg-light;
-$link-color: $black;
-$link-color-hover: $dandelion;
-$text-color: $mine-shaft;
+$text-color: $tundora;
+$link-color: $text-color;
+$link-color-hover: $black;
+
 $heart: $dandelion;
 $headings-bg: $dandelion;
 
 $active-color: $heart;
 
-$font-base: 'Roboto Mono', monospace;
-$font-headings: $font-base;
-$headings-weight: 400;
+$font-base: 'Roboto Mono', Courier, Helvetica, sans-serif;
+$font-headings: 'Montserrat';
+$headings-weight: 800;
 $headings-line-height: 1.4;
 
-$font-base-size: 1em;
+$font-base-size: 1rem;
 $line-height-base: 1.5;
 
 $h1-size: 3.052em;
