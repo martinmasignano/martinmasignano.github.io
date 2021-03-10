@@ -4,11 +4,10 @@ title: Acerca de
 permalink: /about/
 order: 0
 ---
-![](/assets/images/aboutme.png){: .post-img alt="Acerca de"}
 
-# Acerca de mí
+## Acerca de mí
 
-Hola, mi nombre es Martín y actualmente trabajo como líder de diseño UX en **[Banco Galicia](http://bancogalicia.com){:target="blank"}**. Cuento con más de 10 años de experiencia dentro del mundo digital, pasión por el cine y la música. Tengo formación como Diseñador de Imagen y Sonido (UBA), pero migré primero hacia el desarrollo web y luego hacia el diseño.
+Hola, mi nombre es **[Martín](/)** y actualmente trabajo como líder de diseño UX en **[Banco Galicia](http://bancogalicia.com){:target="blank"}**. Cuento con más de 10 años de experiencia dentro del mundo digital, pasión por el cine y la música. Tengo formación como Diseñador de Imagen y Sonido (UBA), pero migré primero hacia el desarrollo web y luego hacia el diseño.
 
 Trabajé en **[Qubit.tv](http://qubit.tv){:target="blank"}** como diseñador UX, investigando y creando las distintas platadormas de la compañia: sitio web (desktop y mobile), aplicaciones nativas para iOS y Android, y aplicaciones para SmartTV.
 
@@ -16,9 +15,22 @@ Antes de dedicarme al diseño UX, trabajé como desarrollador frontend en difere
 
 Podés visitar mi **[LinkedIn](https://www.linkedin.com/in/martinmasignano){:target="blank"}** para ver mi experiencia profesional completa.
 
+### Contacto
+
+¿Tenés alguna sugerencia o estás interesado en que trabajemos juntos en un proyecto? Adelante, me encantaría conectarme con vos. 
+
+**[Enviame un email](mailto:martinmasignano@gmail.com){:class="btn btn-primary"}**
+
+Si no, podés seguirme en las redes:
+
+* [Instagram](https://www.instagram.com/martinmasignano/){:target="blank"}
+* [Soundcloud](https://soundcloud.com/martinmasignano){:target="blank"}
+* [Github](https://github.com/martinmasignano){:target="blank"}
+* [Linkedin](https://www.linkedin.com/in/martinmasignano/){:target="blank"}
+
 <hr />
 
-# Acerca del sitio
+## Acerca del sitio
 
 En este blog voy compartiendo diversos temas de mi vida personal y profesional: reflexiones, ideas, tutoriales, eventos. Todas las opiniones vertidas aquí son exclusivamente mías.
 
