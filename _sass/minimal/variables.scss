@@ -6,12 +6,16 @@ $tree-poppy: rgba(255,158,27,1); // #ff9e1b
 $dandelion: rgba(255, 217, 102, 1); // #ffd966
 $white: rgba(255, 255, 255, 1); // #ffffff
 $black: rgba(0, 0, 0, 1); // #000000
+$sandwisp: rgba(242, 227, 155, 1); // #F2E39B
+$bright-turquoise: rgba(0, 255, 188, 1); // #00ffbc
+
 
 $bg-light: $white;
 
 $bg-color: $bg-light;
 $text-color: $tundora;
-$link-color: $text-color;
+$link-color: $dark-blue;
+$link-bg: $bright-turquoise;
 $link-color-hover: $black;
 
 $heart: $dandelion;
