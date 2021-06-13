@@ -7,7 +7,7 @@ comments: true
 ---
 
 
-Después de mucho tiempo de hacer y deshacer, por fin puedo poner online mi portfolio/blog/sitio personal y profesional, en dónde --espero-- les iré contando diversos temas de mi interés.
+Después de mucho tiempo de hacer y deshacer, por fin puedo poner online mi portfolio/blog/sitio personal y profesional, en dónde espero contar diversos temas de mi interés.
 
 Estos pueden ser muy variados, pero me pareció buena la idea de tener todo en un mismo lugar, porque los seres humanos somos así de inabarcables, exploradores, curiosos y también contradictorios.
 

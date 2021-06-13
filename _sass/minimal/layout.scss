@@ -13,6 +13,12 @@ body {
     font-family: $font-base;
 }
 
+header {
+    a {
+        color: $text-color;
+    }
+}
+
 main {
     flex: 1 0 auto;
     padding: 4rem 0;
@@ -64,11 +70,12 @@ nav {
 
 .post {
     a {
-        background-color: #F2E39B;
+        background-color: lighten($link-bg,10);
         padding: 1px 5px;
 
         &:hover {
             color: $link-color-hover;
+            background-color: $link-bg;
         }
     }
 
@@ -110,6 +117,16 @@ nav {
     color: lighten($text-color, 40);
     font-size: 85%;
     margin-top: 0;
+}
+
+.post-header {
+    a {
+        color: $text-color;
+
+        &:hover {
+            color: $link-color;
+        }
+    }
 }
 
 .post-content {
