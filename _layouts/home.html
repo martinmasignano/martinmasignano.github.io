@@ -12,12 +12,14 @@ layout: default
               <h2 class="post-title p-name" itemprop="name headline">
                 <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
               </h2>
-              <p class="post-meta">
-                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                  {{ post.date | date: date_format }}
-                </time>
             </header>
             {{ post.content }}
+            <div class="post-footer">
+              <p class="post-meta">
+                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                  <a href="{{ post.url | relative_url }}">{{ post.date | date: date_format }}</a>
+                </time>
+              </div>
             <hr>
           </li>
       {%- endfor -%}
