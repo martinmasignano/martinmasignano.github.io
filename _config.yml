@@ -30,7 +30,7 @@ twitter_username: uxbymartin
 github_username:  martinmasignano
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-feed
