@@ -21,7 +21,6 @@
 title: Martín Masignano
 email: martinmasignano@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Cuento con más de diez años de experiencia en el desarrollo de aplicaciones y productos digitales, y trabajo día a día para ofrecer soluciones innovadoras tanto en el plano del diseño de interfaces como en el campo de la experiencia de usuario.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: uxbymartin
