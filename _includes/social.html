@@ -1,0 +1,25 @@
+<ul class="social-media-list">
+    {% if site.twitter_username %}
+        <li>{% include twitter-username.html username=site.twitter_username %}</li>
+    {% endif %}
+    
+    {% if site.instagram_username %}
+        <li>{% include instagram-username.html username=site.instagram_username %}</li>
+    {% endif %}
+    
+    {% if site.github_username %}
+        <li>{% include github-username.html username=site.github_username %}</li>
+    {% endif %}
+    
+    {% if site.soundcloud_username %}
+        <li>{% include soundcloud-username.html username=site.soundcloud_username %}</li>
+    {% endif %}
+    
+    {% if site.behance_username %}
+        <li>{% include behance-username.html username=site.behance_username %}</li>
+    {% endif %}
+    
+    {% if site.linkedin_username %}
+        <li>{% include linkedin-username.html username=site.linkedin_username %}</li>
+    {% endif %}
+</ul>
