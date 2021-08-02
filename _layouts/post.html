@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h2>{{ page.title }}</h2>
-
-<p class="view">Por <a href="{{page.author.url | relative_url }}">{{ page.author | default: site.author }}</a></p>
-
-{{content}}
-
-{% if page.tags %}
-<small>Tags: <em><a href="{{ post.tags.url | relative_url }}">{{ page.tags | join: "</em> - <em>" }}</a></em></small>
-{% endif %}
+<div class="post">
+    <small>{{ page.date | date: "%-d %B %Y" }}</small>
+    <h2>{{ page.title }}</h2>
+    
+    <p class="view">Por <a href="{{page.author.url | relative_url }}">{{ page.author | default: site.author }}</a></p>
+    
+    {{content}}
+    
+    {% if page.tags %}
+    <small>Tags: <em><a href="{{ post.tags.url | relative_url }}">{{ page.tags | join: "</em> - <em>" }}</a></em></small>
+    {% endif %}
+</div>

@@ -1,2 +1,20 @@
 a, a:visited { color: $link-color; }
 a:hover { color: $link-color-hover; font-weight: inherit;}
+
+html { background-color: $bg-color; }
+body { background-color: transparent; color: $text-color; font-family: $text-font; font-size: 1.2em; }
+
+hr { border: .01rem dashed; height: 0; margin: 0 0 20px; background: none; }
+
+code, pre { font-family: $font-code; color: $code-color;}
+
+ul, ol { margin: 0; padding: 0; list-style: none; }
+
+.site-nav { text-transform: uppercase; font-family: $font-code; font-size: 85%; }
+
+.post { margin-bottom: 1rem; }
+.content a { text-decoration: underline; text-decoration-color: $link-color-underline; }
+
+.post-title a {text-decoration: none; }
+
+.social-media-list li { display: inline-block; padding: 0 15px 0 0;}

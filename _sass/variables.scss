@@ -1,4 +1,22 @@
 $dark-blue: rgba(0,0,200,1); //#0000C8
+$ebony-clay: rgba(34,36,54,1); //#222436
+$spindle: rgba(170,184,232,1); //#AAB8E8
+$malibu: rgba(130,170,255,1); //#82AAFF
+$yellow-green: rgba(194,232,141,1); //#C2E88D
+$mine-shaft: rgba(51,51,51,1); //#333
+$alto: rgba(215,215,215,1); //#d7d7d7
+$white: rgba(255,255,255,1); //#fff
+$blach: rgba(0,0,0,1); //#000
+$azure-radiance: rgba(0,122,252,1); //#007AFC
 
-$link-color: $dark-blue;
-$link-color-hover: lighten($dark-blue,20);
+$bg-color: $white;
+$text-color: $mine-shaft;
+$link-color: $text-color;
+$link-color-hover: $azure-radiance;
+$link-color-underline: $link-color-hover;
+$code-color: $text-color;
+$headings-color: $link-color;
+
+$headings-font: 'STIX Two Text', serif;
+$text-font: $headings-font;
+$font-code: 'Roboto Mono', monospace;
