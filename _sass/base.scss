@@ -6,7 +6,9 @@ body { background-color: transparent; color: $text-color; font-family: $text-fon
 
 hr { border: .01rem dashed; height: 0; margin: 0 0 20px; background: none; }
 
-code, pre { font-family: $font-code; color: $code-color;}
+code, pre, small { font-family: $font-code; color: $code-color;}
+
+small { font-size: 50%; line-height: 1;}
 
 ul, ol { margin: 0; padding: 0; list-style: none; }
 
@@ -18,3 +20,5 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .post-title a {text-decoration: none; }
 
 .social-media-list li { display: inline-block; padding: 0 15px 0 0;}
+
+footer { width: auto; }
