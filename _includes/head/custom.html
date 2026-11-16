@@ -1,1 +1,13 @@
+<!-- Apply a saved theme early to avoid a flash while the page loads. -->
+<script>
+  try {
+    const savedTheme = localStorage.getItem('site-theme');
+    if (savedTheme === 'dark' || savedTheme === 'light') {
+      document.documentElement.dataset.theme = savedTheme;
+    }
+  } catch (error) {
+    // Keep the default light theme when browser storage is unavailable.
+  }
+</script>
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<script src="{{ '/assets/js/theme-toggle.js' | relative_url }}" defer></script>
