@@ -18,8 +18,9 @@
   --accent: #d3bfa5;
 }
 
-html { background: var(--paper); }
+html { min-height: 100%; background: var(--paper); }
 body {
+  min-height: 100vh;
   color: var(--ink);
   background: var(--paper);
   font-family: var(--serif);
@@ -107,7 +108,15 @@ blockquote { color: var(--muted); border-left-color: var(--line); font-family: v
   .section-heading { align-items: start; flex-direction: column; }
   .post-row { grid-template-columns: 1fr; gap: .2rem; }
   .post-row time { padding-top: 0; }
-  .site-nav .theme-toggle { margin: .45rem 0 0; }
+
+  /* Match Minima's dropdown menu to the active theme. */
+  .site-nav {
+    background-color: var(--paper);
+    border: 1px solid var(--line);
+  }
+  .site-nav .trigger { clear: both; }
+  .site-nav .page-link { color: var(--ink); }
+  .site-nav .theme-toggle { display: block; margin: .55rem 15px .65rem auto; }
 }
 
 @media (prefers-reduced-motion: reduce) {
