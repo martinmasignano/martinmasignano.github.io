@@ -1,4 +1,4 @@
-<!-- Apply a saved theme early to avoid a flash while the page loads. -->
+<!-- Set the saved theme before styles render to avoid a flash on page load. -->
 <script>
   try {
     const savedTheme = localStorage.getItem('site-theme');
@@ -6,7 +6,7 @@
       document.documentElement.dataset.theme = savedTheme;
     }
   } catch (error) {
-    // Keep the default light theme when browser storage is unavailable.
+    // The site remains in light mode if browser storage is unavailable.
   }
 </script>
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">

@@ -107,8 +107,7 @@ blockquote { color: var(--muted); border-left-color: var(--line); font-family: v
   .section-heading { align-items: start; flex-direction: column; }
   .post-row { grid-template-columns: 1fr; gap: .2rem; }
   .post-row time { padding-top: 0; }
-  .site-nav .trigger .theme-toggle { display: block; margin: .6rem 0 .4rem; }
-  .site-nav { background-color: var(--paper); border-color: var(--line); }
+  .site-nav .theme-toggle { margin: .45rem 0 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

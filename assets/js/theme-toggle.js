@@ -9,34 +9,38 @@
     button.type = 'button';
     button.className = 'theme-toggle';
     button.setAttribute('aria-pressed', 'false');
+    button.setAttribute('aria-label', 'Cambiar al modo noche');
 
     function setTheme(theme, savePreference) {
       const isDark = theme === 'dark';
       document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
       button.textContent = isDark ? 'Modo claro' : 'Modo noche';
-      button.setAttribute('aria-label', isDark ? 'Cambiar al modo claro' : 'Cambiar al modo noche');
       button.setAttribute('aria-pressed', String(isDark));
+      button.setAttribute('aria-label', isDark ? 'Cambiar al modo claro' : 'Cambiar al modo noche');
+
       if (savePreference) {
-        try { localStorage.setItem(storageKey, isDark ? 'dark' : 'light'); }
-        catch (error) { /* Theme switching still works until the page is reloaded. */ }
+        try {
+          localStorage.setItem(storageKey, isDark ? 'dark' : 'light');
+        } catch (error) {
+          // Theme switching still works for this page if browser storage is unavailable.
+        }
       }
     }
 
-    let initialTheme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+    let initialTheme = document.documentElement.dataset.theme || 'light';
     try {
       const savedTheme = localStorage.getItem(storageKey);
       if (savedTheme === 'dark' || savedTheme === 'light') initialTheme = savedTheme;
-    } catch (error) { /* Use the default light theme. */ }
+    } catch (error) {
+      // Keep the default light theme if browser storage is unavailable.
+    }
 
     setTheme(initialTheme, false);
     button.addEventListener('click', () => {
       const currentTheme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
       setTheme(currentTheme === 'dark' ? 'light' : 'dark', true);
     });
-
-    // Keep the control inside Minima's visible desktop links and mobile menu.
-    const trigger = nav.querySelector('.trigger');
-    (trigger || nav).appendChild(button);
+    nav.appendChild(button);
   }
 
   if (document.readyState === 'loading') {
