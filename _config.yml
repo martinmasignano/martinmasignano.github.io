@@ -1,0 +1,25 @@
+title: Martin Masignano
+email:
+description: A personal portfolio, journal, and collection of creative writing.
+url: "https://martinmasignano.github.io"
+baseurl: ""
+
+remote_theme:
+
+# GitHub Pages-supported theme and plugins.
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - portfolio.md
+  - journal.md
+  - about.md
+
+show_excerpts: true
+permalink: /journal/:year/:month/:day/:title/
+
+minima:
+  skin: classic
+  social_links: []
