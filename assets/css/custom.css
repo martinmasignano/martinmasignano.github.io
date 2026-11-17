@@ -11,3 +11,17 @@
   justify-content: center;
   margin-left: auto;
 }
+
+@media (max-width: 600px) {
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .site-nav .theme-toggle {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+}

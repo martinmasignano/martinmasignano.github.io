@@ -1,24 +1,19 @@
 (() => {
   const storageKey = 'site-theme';
 
-  function addThemeToggle() {
-    const nav = document.querySelector('.site-nav');
-    if (!nav) return;
-    if (nav.querySelector('.theme-toggle')) return;
+  function applyTheme(theme) {
+    const dark = theme === 'dark';
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    const button = document.querySelector('.theme-toggle');
+    if (!button) return;
+    button.textContent = dark ? 'Modo claro' : 'Modo noche';
+    button.setAttribute('aria-label', dark ? 'Cambiar al modo claro' : 'Cambiar al modo noche');
+    button.setAttribute('aria-pressed', String(dark));
+  }
 
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'theme-toggle';
-    button.textContent = 'Modo noche';
-    button.setAttribute('aria-label', 'Cambiar al modo noche');
-
-    const applyTheme = (theme) => {
-      const dark = theme === 'dark';
-      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
-      button.textContent = dark ? 'Modo claro' : 'Modo noche';
-      button.setAttribute('aria-label', dark ? 'Cambiar al modo claro' : 'Cambiar al modo noche');
-      button.setAttribute('aria-pressed', String(dark));
-    };
+  function initThemeToggle() {
+    const button = document.querySelector('.theme-toggle');
+    if (!button) return;
 
     try {
       const savedTheme = localStorage.getItem(storageKey);
@@ -29,18 +24,14 @@
 
     button.addEventListener('click', () => {
       const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-      try {
-        localStorage.setItem(storageKey, nextTheme);
-      } catch (error) {}
+      try { localStorage.setItem(storageKey, nextTheme); } catch (error) {}
       applyTheme(nextTheme);
     });
-
-    nav.appendChild(button);
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', addThemeToggle, { once: true });
+    document.addEventListener('DOMContentLoaded', initThemeToggle, { once: true });
   } else {
-    addThemeToggle();
+    initThemeToggle();
   }
 })();
