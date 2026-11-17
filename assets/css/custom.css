@@ -1,27 +1,50 @@
-.site-nav {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
+/* Temporary high-contrast diagnostic theme: confirms whether custom.css is loaded. */
+html,
+body,
+.site-header,
+.site-footer,
+.site-nav,
+.site-nav .trigger {
+  background-color: #0757c7 !important;
+}
+
+html,
+body,
+body *,
+.site-header *,
+.site-footer * {
+  color: #ffffff !important;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.site-header,
+.site-footer {
+  border-color: #ffffff !important;
 }
 
 .site-nav .theme-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
+  margin-left: 1rem;
+  padding: .35rem .7rem;
+  border: 1px solid #ffffff !important;
+  border-radius: 999px;
+  background: transparent !important;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
   .site-nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    background-color: #0757c7 !important;
+    border-color: #ffffff !important;
   }
 
   .site-nav .theme-toggle {
-    margin-left: 0;
-    width: 100%;
-    justify-content: center;
+    display: block;
+    margin: .55rem 15px .65rem;
   }
 }
