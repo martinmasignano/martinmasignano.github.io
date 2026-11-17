@@ -70,10 +70,13 @@ textarea {
   align-items: center;
 }
 
+/* Keep navigation crisp and understated against the literary body typography. */
 .site-nav .page-link {
   color: var(--ink);
-  font-family: var(--serif);
-  font-size: .95rem;
+  font-family: var(--sans);
+  font-size: .82rem;
+  font-weight: 450;
+  letter-spacing: .015em;
   opacity: .8;
 }
 
@@ -105,7 +108,7 @@ a:visited {
   border-radius: 50%;
   background: transparent;
   color: var(--ink);
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 1.2rem;
   line-height: 1;
   cursor: pointer;
