@@ -1,51 +1,51 @@
 ---
 layout: page
-title: Home
+title: Inicio
 permalink: /
-lang: en
+lang: es
 ---
 
 <section class="home-intro">
-  <p class="eyebrow">Portfolio · Journal · Notes</p>
-  <h1>A small corner of the internet for work and words.</h1>
-  <p class="intro-copy">I’m Martin. This is where I collect selected work, things I’m learning, and writing I want to keep. Thanks for stopping by.</p>
+  <p class="eyebrow">Portafolio · Diario · Notas</p>
+  <h1>Un pequeño rincón en internet para el trabajo y las palabras.</h1>
+  <p class="intro-copy">Soy Martin. Aquí reúno algunos proyectos, cosas que voy aprendiendo y textos que quiero conservar. Gracias por pasar.</p>
   <div class="intro-links">
-    <a class="text-link" href="{{ '/portfolio/' | relative_url }}">Explore the portfolio <span aria-hidden="true">↗</span></a>
-    <a class="text-link" href="{{ '/journal/' | relative_url }}">Read the journal <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="{{ '/portfolio/' | relative_url }}">Ver el portafolio <span aria-hidden="true">↗</span></a>
+    <a class="text-link" href="{{ '/journal/' | relative_url }}">Leer el diario <span aria-hidden="true">↗</span></a>
   </div>
 </section>
 
 <section class="home-section" aria-labelledby="work-heading">
   <div class="section-heading">
     <div>
-      <p class="eyebrow">Selected work</p>
-      <h2 id="work-heading">A few things I’ve made</h2>
+      <p class="eyebrow">Proyectos seleccionados</p>
+      <h2 id="work-heading">Algunas cosas que hice</h2>
     </div>
-    <a class="text-link" href="{{ '/portfolio/' | relative_url }}">All work <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{{ '/portfolio/' | relative_url }}">Ver proyectos <span aria-hidden="true">→</span></a>
   </div>
-  <p class="muted">A portfolio takes shape one project at a time. <a href="{{ '/portfolio/' | relative_url }}">See how to add yours.</a></p>
+  <p class="muted">Un portafolio crece de a un proyecto por vez. <a href="{{ '/portfolio/' | relative_url }}">Descubrí cómo sumar el tuyo.</a></p>
 </section>
 
 <section class="home-section" aria-labelledby="recent-heading">
   <div class="section-heading">
     <div>
-      <p class="eyebrow">Recently written</p>
-      <h2 id="recent-heading">From the journal</h2>
+      <p class="eyebrow">Lo último que escribí</p>
+      <h2 id="recent-heading">Del diario</h2>
     </div>
-    <a class="text-link" href="{{ '/journal/' | relative_url }}">All writing <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{{ '/journal/' | relative_url }}">Todos los textos <span aria-hidden="true">→</span></a>
   </div>
   <div class="post-list">
-    {% assign english_posts = site.posts | where_exp: "post", "post.lang != 'es'" %}
-    {% for post in english_posts limit:3 %}
+    {% assign spanish_posts = site.posts | where: "lang", "es" %}
+    {% for post in spanish_posts limit:3 %}
       <article class="post-row">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
         <div>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
           {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncate: 150 }}</p>{% endif %}
         </div>
       </article>
     {% else %}
-      <p class="muted">The next entry is waiting to be written.</p>
+      <p class="muted">La próxima entrada está esperando ser escrita.</p>
     {% endfor %}
   </div>
 </section>

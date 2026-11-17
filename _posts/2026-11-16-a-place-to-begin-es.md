@@ -4,7 +4,7 @@ title: Un lugar para empezar
 date: 2026-11-16 09:00:00 -0000
 categories: notes
 lang: es
-permalink: /es/journal/:year/:month/:day/a-place-to-begin/
+permalink: /journal/:year/:month/:day/a-place-to-begin/
 excerpt: Una nota breve sobre cómo hacer lugar para aquello que vale la pena recordar.
 ---
 

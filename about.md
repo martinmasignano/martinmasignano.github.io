@@ -1,11 +1,12 @@
 ---
 layout: page
-title: About
+title: Acerca de mí
 permalink: /about/
+lang: es
 ---
 
-Hello, I’m Martin. This site is my place to bring a few parts of life together: work I’m proud of, ideas I’m exploring, and writing that might otherwise stay in a notebook.
+Hola, soy Martin. Este sitio reúne algunas cosas importantes para mí: proyectos de los que estoy orgulloso, ideas que estoy explorando y textos que de otro modo quedarían en un cuaderno.
 
-I like the space between making and noticing. The portfolio will grow as I have things to share; the journal is for the thoughts, experiments, and small stories along the way.
+Me interesa el espacio entre hacer y observar. El portafolio irá creciendo a medida que tenga cosas para compartir; el diario es un lugar para pensamientos, experimentos y pequeñas historias del camino.
 
-If you’d like to get in touch, add your preferred contact link here. You can also add links to social profiles in `_config.yml` when you’re ready.
+Si querés contactarme, podés agregar aquí tu enlace de contacto preferido. Cuando estés listo, también podés sumar tus redes sociales en `_config.yml`.

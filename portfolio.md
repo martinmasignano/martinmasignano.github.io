@@ -1,25 +1,26 @@
 ---
 layout: page
-title: Portfolio
+title: Portafolio
 permalink: /portfolio/
+lang: es
 ---
 
-A home for projects, experiments, and the ideas behind them.
+Un espacio para proyectos, experimentos y las ideas que hay detrás.
 
-## Selected work
+## Proyectos seleccionados
 
-This section is ready for your projects. For each one, add a title, a short description of the problem or idea, what you contributed, and a link or image if you have one. Remove this note when you add your first project.
+Esta sección está lista para tus proyectos. Para cada uno, agregá un título, una breve descripción del problema o la idea, qué aportaste y un enlace o imagen, si tenés. Cuando estés listo, podés eliminar esta nota.
 
 <!--
-Project starter:
+Plantilla para un proyecto:
 
-### Project name
+### Nombre del proyecto
 
-A sentence or two about what it is and why it matters. Mention your role and the tools or collaborators involved.
+Una o dos frases sobre qué es y por qué importa. Contá cuál fue tu rol y qué herramientas o colaboradores participaron.
 
-[Visit the project](https://example.com)
+[Ver el proyecto](https://example.com)
 -->
 
-## What I’m exploring
+## Lo que estoy explorando
 
-I’m interested in the process as much as the finished thing: the questions, small decisions, and unexpected turns that make a project worth sharing. I’ll add more here as the portfolio grows.
+Me interesa tanto el proceso como el resultado: las preguntas, las pequeñas decisiones y los giros inesperados que hacen que valga la pena compartir un proyecto. Voy a sumar más a medida que crezca el portafolio.
