@@ -1,21 +1,21 @@
-/* Editorial theme overrides; this file is loaded after Minima's main.css. */
+/* Editorial theme overrides; loaded after Minima's main.css. */
 :root {
   color-scheme: light;
-  --ink: #25231f;
-  --muted: #77736c;
-  --paper: #fcfbf8;
-  --line: #e9e6df;
-  --accent: #665748;
+  --ink: #171717;
+  --muted: #424242;
+  --paper: #ffffff;
+  --line: #d6d6d6;
+  --accent: #171717;
   --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --ink: #e9e5dd;
-  --muted: #aaa49a;
-  --paper: #171715;
-  --line: #34322d;
-  --accent: #d3bfa5;
+  --ink: #ffffff;
+  --muted: #d0d0d0;
+  --paper: #121212;
+  --line: #454545;
+  --accent: #ffffff;
 }
 
 html,
@@ -35,12 +35,20 @@ body {
   transition: background-color .2s ease, color .2s ease;
 }
 
+button,
+input,
+select,
+textarea {
+  font-family: var(--serif);
+}
+
 .wrapper { max-width: 760px; }
-.site-header { border-top: 0; border-bottom: 1px solid var(--line); }
+.site-header { border-top: 0; border-bottom: 1px solid var(--line); background-color: var(--paper); }
 .site-title, .site-title:visited { color: var(--ink); font-family: var(--serif); font-size: 1.35rem; font-weight: 400; letter-spacing: -.04em; }
-.site-nav .page-link { color: var(--muted); font-family: var(--serif); font-size: .95rem; }
-.site-nav .page-link:hover, a:hover { color: var(--accent); }
-a, a:visited { color: var(--accent); }
+.site-nav { background-color: var(--paper); }
+.site-nav .page-link { color: var(--ink); font-family: var(--serif); font-size: .95rem; }
+.site-nav .page-link:hover, a:hover { color: var(--muted); }
+a, a:visited { color: var(--ink); }
 
 .site-nav .theme-toggle {
   margin: 0 0 0 1rem;
@@ -55,10 +63,10 @@ a, a:visited { color: var(--accent); }
   cursor: pointer;
   transition: border-color .2s ease, color .2s ease, background-color .2s ease;
 }
-.site-nav .theme-toggle:hover { border-color: var(--accent); color: var(--accent); }
-.site-nav .theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.site-nav .theme-toggle:hover { border-color: var(--ink); color: var(--ink); }
+.site-nav .theme-toggle:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
 
-.site-footer { border-top: 1px solid var(--line); color: var(--muted); }
+.site-footer { border-top: 1px solid var(--line); color: var(--muted); background-color: var(--paper); }
 .footer-col-wrapper { color: var(--muted); }
 .page-content { padding: 4.5rem 0 6rem; }
 .page-heading, h1, h2, h3 { color: var(--ink); font-family: var(--serif); font-weight: 400; letter-spacing: -.045em; line-height: 1.18; }
@@ -67,7 +75,7 @@ h2 { font-size: clamp(1.9rem, 5vw, 2.5rem); }
 h3 { font-size: 1.5rem; }
 .home-intro { max-width: 700px; padding: 2rem 0 4rem; }
 .home-intro h1 { max-width: 680px; margin: .65rem 0 1.35rem; }
-.eyebrow { color: var(--muted); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: .68rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; }
+.eyebrow { color: var(--muted); font-family: var(--serif); font-size: .75rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; }
 .intro-copy { max-width: 570px; color: var(--muted); font-size: 1.3rem; line-height: 1.7; }
 .intro-links { display: flex; flex-wrap: wrap; gap: .8rem 1.8rem; margin-top: 1.8rem; }
 .text-link { font-size: .95rem; text-decoration: none; text-underline-offset: .25em; }
@@ -77,13 +85,13 @@ h3 { font-size: 1.5rem; }
 .muted { color: var(--muted); }
 .post-list { margin-top: 1.5rem; }
 .post-row { display: grid; grid-template-columns: 110px 1fr; gap: .5rem 1.25rem; padding: 1.35rem 0; border-top: 1px solid var(--line); }
-.post-row time { padding-top: .35rem; color: var(--muted); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: .75rem; }
+.post-row time { padding-top: .35rem; color: var(--muted); font-family: var(--serif); font-size: .85rem; }
 .post-row h2, .post-row h3 { margin: 0 0 .3rem; font-size: 1.55rem; }
 .post-row h2 a, .post-row h3 a { color: var(--ink); text-decoration: none; }
 .post-row p { margin: .25rem 0 0; color: var(--muted); font-size: 1rem; }
 .journal-list { margin-top: 2rem; }
 .post-header { margin-bottom: 2.5rem; }
-.post-meta { color: var(--muted); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: .8rem; }
+.post-meta { color: var(--muted); font-family: var(--serif); font-size: .9rem; }
 .post-content { max-width: 680px; font-family: var(--serif); font-size: 1.2rem; line-height: 1.95; }
 .post-content h2, .post-content h3 { margin-top: 2.5rem; }
 blockquote { color: var(--muted); border-left-color: var(--line); font-family: var(--serif); font-style: italic; }
