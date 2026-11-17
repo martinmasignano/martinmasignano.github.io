@@ -34,7 +34,6 @@
       setTheme(currentTheme === 'dark' ? 'light' : 'dark', true);
     });
 
-    // Minima places its navigation links inside .trigger; put the control there too.
     const trigger = nav.querySelector('.trigger');
     (trigger || nav).appendChild(button);
   }
