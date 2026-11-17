@@ -1,46 +1,46 @@
 (() => {
   const storageKey = 'site-theme';
 
-  function initializeThemeToggle() {
+  function addThemeToggle() {
     const nav = document.querySelector('.site-nav');
-    if (!nav || nav.querySelector('.theme-toggle')) return;
+    if (!nav) return;
+    if (nav.querySelector('.theme-toggle')) return;
 
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'theme-toggle';
-    button.setAttribute('aria-pressed', 'false');
+    button.textContent = 'Modo noche';
+    button.setAttribute('aria-label', 'Cambiar al modo noche');
 
-    function setTheme(theme, savePreference) {
-      const isDark = theme === 'dark';
-      document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
-      button.textContent = isDark ? 'Modo claro' : 'Modo noche';
-      button.setAttribute('aria-label', isDark ? 'Cambiar al modo claro' : 'Cambiar al modo noche');
-      button.setAttribute('aria-pressed', String(isDark));
-      if (savePreference) {
-        try { localStorage.setItem(storageKey, isDark ? 'dark' : 'light'); }
-        catch (error) { /* Theme switching still works until the page is reloaded. */ }
-      }
-    }
+    const applyTheme = (theme) => {
+      const dark = theme === 'dark';
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      button.textContent = dark ? 'Modo claro' : 'Modo noche';
+      button.setAttribute('aria-label', dark ? 'Cambiar al modo claro' : 'Cambiar al modo noche');
+      button.setAttribute('aria-pressed', String(dark));
+    };
 
-    let initialTheme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
     try {
       const savedTheme = localStorage.getItem(storageKey);
-      if (savedTheme === 'dark' || savedTheme === 'light') initialTheme = savedTheme;
-    } catch (error) { /* Use the default light theme. */ }
+      if (savedTheme === 'dark' || savedTheme === 'light') {
+        applyTheme(savedTheme);
+      }
+    } catch (error) {}
 
-    setTheme(initialTheme, false);
     button.addEventListener('click', () => {
-      const currentTheme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
-      setTheme(currentTheme === 'dark' ? 'light' : 'dark', true);
+      const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      try {
+        localStorage.setItem(storageKey, nextTheme);
+      } catch (error) {}
+      applyTheme(nextTheme);
     });
 
-    const trigger = nav.querySelector('.trigger');
-    (trigger || nav).appendChild(button);
+    nav.appendChild(button);
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initializeThemeToggle, { once: true });
+    document.addEventListener('DOMContentLoaded', addThemeToggle, { once: true });
   } else {
-    initializeThemeToggle();
+    addThemeToggle();
   }
 })();
