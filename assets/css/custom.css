@@ -1,4 +1,4 @@
-/* Temporary high-contrast diagnostic theme: confirms whether custom.css is loaded. */
+/* Temporary diagnostic override: if this file loads, the page must be blue with white text. */
 html,
 body,
 .site-header,
@@ -38,11 +38,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  .site-nav {
-    background-color: #0757c7 !important;
-    border-color: #ffffff !important;
-  }
-
   .site-nav .theme-toggle {
     display: block;
     margin: .55rem 15px .65rem;
