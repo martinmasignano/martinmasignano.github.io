@@ -34,6 +34,11 @@
           <a class="page-link" href="{{ '/about/' | relative_url }}">Acerca de mí</a>
           <a class="page-link language-switch" href="{{ language_url | relative_url }}" lang="en" hreflang="en" aria-label="View this page in English" title="View this page in English">EN</a>
         {%- endif -%}
+        {%- if page.lang == 'en' -%}
+          <a class="page-link search-link" href="{{ '/en/search/' | relative_url }}" aria-label="Search the site" title="Search"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg><span class="search-label">Search</span></a>
+        {%- else -%}
+          <a class="page-link search-link" href="{{ '/search/' | relative_url }}" aria-label="Buscar en el sitio" title="Buscar"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg><span class="search-label">Buscar</span></a>
+        {%- endif -%}
         <button type="button" class="theme-toggle" aria-label="Cambiar al modo noche" title="Cambiar al modo noche" aria-pressed="false">☾</button>
       </div>
     </nav>
