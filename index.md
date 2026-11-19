@@ -7,8 +7,8 @@ lang: es
 
 <section class="home-intro">
   <p class="eyebrow">Portafolio · Diario · Notas</p>
-  <h1>Un pequeño rincón en internet para el trabajo y las palabras.</h1>
-  <p class="intro-copy">Soy Martin. Aquí reúno algunos proyectos, cosas que voy aprendiendo y textos que quiero conservar. Gracias por pasar.</p>
+  <h1>Diseño experiencias. Trabajo con historias. Acompaño procesos creativos.</h1>
+  <p class="intro-copy">Trabajo en la intersección entre el diseño, el audiovisual y la edición. Me interesan las ideas, las personas que las impulsan y las formas que encuentran para convertirse en algo.</p>
   <div class="intro-links">
     <a class="text-link" href="{{ '/portfolio/' | relative_url }}">Ver el portafolio <span aria-hidden="true">↗</span></a>
     <a class="text-link" href="{{ '/journal/' | relative_url }}">Leer el diario <span aria-hidden="true">↗</span></a>
