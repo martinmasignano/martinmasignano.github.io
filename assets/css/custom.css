@@ -67,7 +67,7 @@ h1 { font-size: clamp(2.7rem, 8vw, 4.8rem); }
 h2 { font-size: clamp(1.9rem, 5vw, 2.5rem); }
 h3 { font-size: 1.5rem; }
 .home-intro { max-width: 700px; padding: 2rem 0 4rem; }
-.home-intro h1 { max-width: 680px; margin: .65rem 0 1.35rem; }
+.home-intro h1 { max-width: 680px; margin: .65rem 0 1.35rem; font-size: clamp(2.15rem, 5vw, 3.4rem); }
 .eyebrow { color: var(--muted); font-family: var(--sans); font-size: .68rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; }
 .intro-copy { max-width: 570px; color: var(--muted); font-size: 1.3rem; line-height: 1.7; }
 .intro-links { display: flex; flex-wrap: wrap; gap: .8rem 1.8rem; margin-top: 1.8rem; }
