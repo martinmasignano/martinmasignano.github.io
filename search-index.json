@@ -1,0 +1,31 @@
+---
+layout: null
+permalink: /search-index.json
+---
+[
+{% assign first = true %}
+{% for entry in site.pages %}
+  {% if entry.lang and entry.redirect_to == nil and entry.url != '/search/' and entry.url != '/en/search/' %}
+    {% unless first %},{% endunless %}
+    {
+      "title": {{ entry.title | jsonify }},
+      "url": {{ entry.url | relative_url | jsonify }},
+      "lang": {{ entry.lang | jsonify }},
+      "text": {{ entry.content | markdownify | strip_html | normalize_whitespace | truncate: 1800 | jsonify }}
+    }
+    {% assign first = false %}
+  {% endif %}
+{% endfor %}
+{% for entry in site.posts %}
+  {% if entry.lang %}
+    {% unless first %},{% endunless %}
+    {
+      "title": {{ entry.title | jsonify }},
+      "url": {{ entry.url | relative_url | jsonify }},
+      "lang": {{ entry.lang | jsonify }},
+      "text": {{ entry.content | markdownify | strip_html | normalize_whitespace | truncate: 1800 | jsonify }}
+    }
+    {% assign first = false %}
+  {% endif %}
+{% endfor %}
+]
