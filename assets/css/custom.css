@@ -115,6 +115,15 @@ h3 { font-size: 1.5rem; }
 .intro-links { display: flex; flex-wrap: wrap; gap: .8rem 1.8rem; margin-top: 1.8rem; }
 .text-link { font-size: .95rem; text-decoration: none; text-underline-offset: .25em; }
 .home-section { margin-top: 2.6rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+.home-projects { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.8rem; margin: 1.7rem 0 .3rem; }
+.home-project { min-width: 0; }
+.project-kicker { margin: 0 0 .65rem; color: var(--muted); font-family: var(--sans); font-size: .72rem; font-weight: 600; letter-spacing: .04em; }
+.home-project h3 { font-size: 1.55rem; margin: 0 0 .6rem; }
+.home-project p:not(.project-kicker) { margin: 0; color: var(--muted); font-size: .99rem; line-height: 1.65; }
+.home-learning { padding-bottom: .5rem; }
+.home-learning h2 { max-width: 580px; margin: .4rem 0 1rem; font-size: clamp(1.8rem, 4vw, 2.4rem); }
+.home-learning > p:not(.eyebrow) { max-width: 560px; color: var(--muted); font-size: 1.12rem; line-height: 1.7; }
+.home-learning .text-link { display: inline-block; margin-top: .4rem; }
 .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1.4rem; }
 .section-heading h2 { margin: .35rem 0 0; }
 .muted { color: var(--muted); }
@@ -150,6 +159,7 @@ blockquote { color: var(--muted); border-left-color: var(--line); font-family: v
   .page-content { padding: 2.8rem 0 4rem; }
   .home-intro { padding: .5rem 0 3rem; }
   .section-heading { align-items: start; flex-direction: column; }
+  .home-projects { grid-template-columns: 1fr; gap: 1.6rem; }
   .post-row { grid-template-columns: 1fr; gap: .2rem; }
   .post-row time { padding-top: 0; }
   .site-nav { background-color: var(--paper); border: 1px solid var(--line); }
