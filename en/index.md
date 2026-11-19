@@ -7,8 +7,8 @@ lang: en
 
 <section class="home-intro">
   <p class="eyebrow">Portfolio · Journal · Notes</p>
-  <h1>A small corner of the internet for work and words.</h1>
-  <p class="intro-copy">I’m Martin. This is where I collect selected work, things I’m learning, and writing I want to keep. Thanks for stopping by.</p>
+  <h1>I design experiences. I work with stories. I support creative processes.</h1>
+  <p class="intro-copy">I work at the intersection of design, audiovisual storytelling, and editing. I'm interested in ideas, the people who bring them to life, and the forms they take as they become something real.</p>
   <div class="intro-links">
     <a class="text-link" href="{{ '/en/portfolio/' | relative_url }}">Explore the portfolio <span aria-hidden="true">↗</span></a>
     <a class="text-link" href="{{ '/en/journal/' | relative_url }}">Read the journal <span aria-hidden="true">↗</span></a>
