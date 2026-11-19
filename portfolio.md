@@ -5,22 +5,28 @@ permalink: /portfolio/
 lang: es
 ---
 
-Un espacio para proyectos, experimentos y las ideas que hay detrás.
+No todo lo que hago entra en una sola categoría. A veces trabajo con equipos y experiencias; otras, con imágenes, palabras e historias. En todos los casos, me interesa tanto el proceso como aquello que termina tomando forma.
 
-## Proyectos seleccionados
+## Proyectos y recorridos
 
-Esta sección está lista para tus proyectos. Para cada uno, agregá un título, una breve descripción del problema o la idea, qué aportaste y un enlace o imagen, si tenés. Cuando estés listo, podés eliminar esta nota.
+### Carlinho
 
-<!--
-Plantilla para un proyecto:
+*Montaje audiovisual · Cine documental*
 
-### Nombre del proyecto
+El montaje de un largometraje documental que cruza vínculos, memoria y reencuentros familiares. Mi trabajo estuvo en encontrar una estructura y un ritmo para acompañar la historia, escuchar lo que proponía el material y tomar decisiones narrativas a partir de él.
 
-Una o dos frases sobre qué es y por qué importa. Contá cuál fue tu rol y qué herramientas o colaboradores participaron.
+### Banco Galicia
 
-[Ver el proyecto](https://example.com)
--->
+*Diseño de servicios · Research · Product Design · Liderazgo de equipos*
 
-## Lo que estoy explorando
+Durante años lideré el equipo de Service Design y distintos equipos de Research y Product Design. Una parte importante de esa experiencia fue trabajar con personas de diversas disciplinas: hacer preguntas, ordenar problemas, contrastar ideas y acompañar procesos de diseño.
 
-Me interesa tanto el proceso como el resultado: las preguntas, las pequeñas decisiones y los giros inesperados que hacen que valga la pena compartir un proyecto. Voy a sumar más a medida que crezca el portafolio.
+### Libros Vitales
+
+*Lectura · Escritura · Edición*
+
+Un espacio personal que nació para compartir lecturas y que también me permite explorar la mirada editorial: qué hace que una historia funcione, qué preguntas abre un libro y qué sucede cuando una lectura se convierte en conversación.
+
+---
+
+Estos son algunos puntos de partida. Voy a seguir sumando proyectos, decisiones y aprendizajes, sin apurarme a llenar este espacio.
