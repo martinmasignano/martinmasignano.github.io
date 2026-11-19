@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title: A place to begin
 date: 2026-11-16 09:00:00 -0000
 categories: notes
