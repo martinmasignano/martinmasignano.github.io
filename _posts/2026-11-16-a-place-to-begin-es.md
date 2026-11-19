@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title: Un lugar para empezar
 date: 2026-11-16 09:00:00 -0000
 categories: notes
