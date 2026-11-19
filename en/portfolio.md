@@ -5,22 +5,28 @@ permalink: /en/portfolio/
 lang: en
 ---
 
-A home for projects, experiments, and the ideas behind them.
+Not everything I do fits neatly into one category. Sometimes I work with teams and experiences; other times, with images, words, and stories. In every case, I'm interested in the process as much as in what eventually takes shape.
 
-## Selected work
+## Projects and journeys
 
-This section is ready for your projects. For each one, add a title, a short description of the problem or idea, what you contributed, and a link or image if you have one. Remove this note when you’re ready.
+### Carlinho
 
-<!--
-Project starter:
+*Audiovisual editing · Documentary film*
 
-### Project name
+Editing a feature documentary about relationships, memory, and family reunions. My work was about finding a structure and rhythm that would serve the story, listening to what the footage suggested, and making narrative decisions along the way.
 
-A sentence or two about what it is and why it matters. Mention your role and the tools or collaborators involved.
+### Banco Galicia
 
-[Visit the project](https://example.com)
--->
+*Service Design · Research · Product Design · Team leadership*
 
-## What I’m exploring
+For several years I led the Service Design team and various Research and Product Design teams. An important part of that experience was working with people from different disciplines: asking questions, framing problems, testing ideas, and supporting design processes.
 
-I’m interested in the process as much as the finished thing: the questions, small decisions, and unexpected turns that make a project worth sharing. I’ll add more here as the portfolio grows.
+### Libros Vitales
+
+*Reading · Writing · Editing*
+
+A personal space that began as a way to share what I read and has also become a place to explore an editorial perspective: what makes a story work, what questions a book raises, and what happens when reading becomes a conversation.
+
+---
+
+These are a few starting points. I'll keep adding projects, decisions, and things I've learned, without rushing to fill the page.
