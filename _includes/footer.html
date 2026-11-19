@@ -1,38 +1,9 @@
 <footer class="site-footer" role="contentinfo">
-  <div class="wrapper">
-    <div class="footer-main">
-      <div class="footer-invitation">
-        {%- if page.lang == 'en' -%}
-          <p class="footer-eyebrow">A GOOD PLACE TO END</p>
-          <h2>Let's talk.</h2>
-          <p>Have an idea, a project, or a question worth exploring? I'd love to hear from you.</p>
-          <a class="footer-email" href="mailto:hola@martinmasignano.com">hola@martinmasignano.com <span aria-hidden="true">↗</span></a>
-        {%- else -%}
-          <p class="footer-eyebrow">UN BUEN LUGAR PARA TERMINAR</p>
-          <h2>¿Charlamos?</h2>
-          <p>Si tenés una idea, un proyecto o una pregunta dando vueltas, escribime.</p>
-          <a class="footer-email" href="mailto:hola@martinmasignano.com">hola@martinmasignano.com <span aria-hidden="true">↗</span></a>
-        {%- endif -%}
-      </div>
-
-      <nav class="footer-navigation" aria-label="{% if page.lang == 'en' %}Footer navigation{% else %}Navegación del pie de página{% endif %}">
-        <p class="footer-nav-heading">{% if page.lang == 'en' %}Explore{% else %}Explorar{% endif %}</p>
-        {%- if page.lang == 'en' -%}
-          <a href="{{ '/en/portfolio/' | relative_url }}">Portfolio</a>
-          <a href="{{ '/en/journal/' | relative_url }}">Journal</a>
-          <a href="{{ '/en/about/' | relative_url }}">About</a>
-        {%- else -%}
-          <a href="{{ '/portfolio/' | relative_url }}">Portafolio</a>
-          <a href="{{ '/journal/' | relative_url }}">Diario</a>
-          <a href="{{ '/about/' | relative_url }}">Acerca de mí</a>
-        {%- endif -%}
-        <a href="{{ '/feed.xml' | relative_url }}" aria-label="RSS feed">RSS <span aria-hidden="true">↗</span></a>
-      </nav>
-    </div>
-
-    <div class="footer-bottom">
-      <span>© {{ 'now' | date: '%Y' }} Martín Masignano</span>
-      <span>{% if page.lang == 'en' %}From Buenos Aires, with curiosity.{% else %}Desde Buenos Aires, con curiosidad.{% endif %}</span>
-    </div>
+  <div class="wrapper footer-inner">
+    <span>© {{ 'now' | date: '%Y' }} Martín Masignano</span>
+    <nav class="footer-links" aria-label="{% if page.lang == 'en' %}Footer links{% else %}Enlaces del pie de página{% endif %}">
+      <a href="mailto:hola@martinmasignano.com">{% if page.lang == 'en' %}Email{% else %}Contacto{% endif %}</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </nav>
   </div>
 </footer>
