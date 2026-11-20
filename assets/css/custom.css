@@ -108,8 +108,8 @@ a, a:visited { color: var(--accent); }
 h1 { font-size: clamp(2.7rem, 8vw, 4.8rem); }
 h2 { font-size: clamp(1.9rem, 5vw, 2.5rem); }
 h3 { font-size: 1.5rem; }
-.home-intro { max-width: 700px; padding: 2rem 0 4rem; }
-.home-intro h1 { max-width: 680px; margin: .65rem 0 1.35rem; font-size: clamp(2.15rem, 5vw, 3.4rem); line-height: 1.25; }
+.home-intro { padding: 2rem 0 4rem; }
+.home-intro h1 { margin: .65rem 0 1.35rem; font-size: clamp(2.15rem, 5vw, 3.4rem); line-height: 1.25; }
 /* Bright golden-yellow emphasis within the homepage headline. */
 .intro-highlight {
   padding: 0;
