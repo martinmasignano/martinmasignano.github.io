@@ -92,11 +92,22 @@ a, a:visited { color: var(--accent); font-weight: 700; }
   gap: 1.4rem;
 }
 .footer-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: .38rem;
   color: var(--muted);
   font-family: var(--sans);
   font-size: .82rem;
   font-weight: 700;
+  line-height: 1.6;
   text-decoration: none;
+}
+.footer-icon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+  stroke: currentColor;
 }
 .footer-links a:hover {
   color: var(--hover-yellow);
