@@ -6,8 +6,8 @@
   --paper: #fcfbf8;
   --line: #e9e6df;
   --accent: #665748;
-  --keyword-yellow: #a18d08;
-  --hover-yellow: #827000;
+  --keyword-yellow: #ac594c;
+  --hover-yellow: #ac594c;
   --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -19,8 +19,8 @@
   --paper: #171715;
   --line: #34322d;
   --accent: #d3bfa5;
-  --keyword-yellow: #e3c64d;
-  --hover-yellow: #e3c64d;
+  --keyword-yellow: #e8a18b;
+  --hover-yellow: #e8a18b;
 }
 
 html,
@@ -113,7 +113,7 @@ h2 { font-size: clamp(1.9rem, 5vw, 2.5rem); }
 h3 { font-size: 1.5rem; }
 .home-intro { padding: 2rem 0 4rem; }
 .home-intro h1 { margin: .65rem 0 1.35rem; font-size: clamp(2.15rem, 5vw, 3.4rem); line-height: 1.25; }
-/* Bright golden-yellow emphasis within the homepage headline. */
+/* Muted coral emphasis within the homepage headline. */
 .intro-highlight {
   padding: 0;
   border-radius: 0;
