@@ -7,7 +7,7 @@ lang: es
 
 <section class="home-intro">
   <p class="eyebrow">Diseño · Historias · Aprendizaje</p>
-  <h1>Diseño experiencias. Trabajo con historias. Acompaño procesos creativos.</h1>
+  <h1>Diseño <mark class="intro-highlight">experiencias</mark>. Trabajo con <mark class="intro-highlight">historias</mark>. Acompaño <mark class="intro-highlight">procesos</mark> creativos.</h1>
   <p class="intro-copy">Trabajo en la intersección entre el diseño, el audiovisual y la edición. Me interesan las ideas, las personas que las impulsan y las formas que encuentran para convertirse en algo.</p>
   <div class="intro-links">
     <a class="text-link" href="{{ '/portfolio/' | relative_url }}">Explorar proyectos <span aria-hidden="true">↗</span></a>
