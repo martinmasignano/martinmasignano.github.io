@@ -7,7 +7,7 @@ lang: en
 
 <section class="home-intro">
   <p class="eyebrow">Design · Stories · Learning</p>
-  <h1>I design experiences. I work with stories. I support creative processes.</h1>
+  <h1>I design <mark class="intro-highlight">experiences</mark>. I work with <mark class="intro-highlight">stories</mark>. I support creative <mark class="intro-highlight">processes</mark>.</h1>
   <p class="intro-copy">I work at the intersection of design, audiovisual storytelling, and editing. I'm interested in ideas, the people who bring them to life, and the forms they take as they become something real.</p>
   <div class="intro-links">
     <a class="text-link" href="{{ '/en/portfolio/' | relative_url }}">Explore projects <span aria-hidden="true">↗</span></a>
