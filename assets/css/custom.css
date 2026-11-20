@@ -89,6 +89,9 @@ a, a:visited { color: var(--accent); font-weight: 700; }
 }
 .footer-links {
   display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: auto;
   gap: 1.4rem;
 }
 .footer-links a {
