@@ -109,19 +109,18 @@ h1 { font-size: clamp(2.7rem, 8vw, 4.8rem); }
 h2 { font-size: clamp(1.9rem, 5vw, 2.5rem); }
 h3 { font-size: 1.5rem; }
 .home-intro { max-width: 700px; padding: 2rem 0 4rem; }
-.home-intro h1 { max-width: 680px; margin: .65rem 0 1.35rem; font-size: clamp(2.15rem, 5vw, 3.4rem); line-height: 1.42; }
-/* Warm ochre highlights, without extra italic styling. */
+.home-intro h1 { max-width: 680px; margin: .65rem 0 1.35rem; font-size: clamp(2.15rem, 5vw, 3.4rem); line-height: 1.25; }
+/* Subtle ochre emphasis within the homepage headline. */
 .intro-highlight {
-  padding: 0 .12em;
-  border-radius: .06em;
-  background: #d4b65c;
-  color: #25231f;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #80631f;
+  font-weight: 900;
 }
 :root[data-theme="dark"] .intro-highlight {
-  background: #806725;
-  color: #f4efe4;
+  background: transparent;
+  color: #d4b65c;
 }
 /* Keep all homepage links consistent with the navigation and footer. */
 .home-intro a, .home-section a { font-family: var(--sans); }
