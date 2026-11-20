@@ -110,17 +110,18 @@ h2 { font-size: clamp(1.9rem, 5vw, 2.5rem); }
 h3 { font-size: 1.5rem; }
 .home-intro { max-width: 700px; padding: 2rem 0 4rem; }
 .home-intro h1 { max-width: 680px; margin: .65rem 0 1.35rem; font-size: clamp(2.15rem, 5vw, 3.4rem); line-height: 1.25; }
-/* Subtle ochre emphasis within the homepage headline. */
+/* Bright golden-yellow emphasis within the homepage headline. */
 .intro-highlight {
   padding: 0;
   border-radius: 0;
   background: transparent;
-  color: #80631f;
+  color: #a17d0c;
   font-weight: 900;
+  font-style: italic;
 }
 :root[data-theme="dark"] .intro-highlight {
   background: transparent;
-  color: #d4b65c;
+  color: #e3c64d;
 }
 /* Keep all homepage links consistent with the navigation and footer. */
 .home-intro a, .home-section a { font-family: var(--sans); }
